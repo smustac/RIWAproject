@@ -8,6 +8,7 @@ const routes = [
       { path: 'popisknjiga', component: () => import('pages/PopisKnjigaPage.vue') },
       { path: 'pretrazivanje', component: () => import('pages/PretraživanjePage.vue') },
       { path: 'lokacija', component: () => import('pages/LokacijaPage.vue') },
+      { path: 'test2', component: () => import('pages/Test2Page.vue') },
       { path: '/test', component: () => import('pages/TestPage.vue') },
    
     ]
