@@ -1,10 +1,11 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
+  <q-layout view="hHh Lpr lFf">
     <q-header elevated>
       <q-toolbar>
         <q-btn flat dense round icon="menu" aria-label="Menu" @click="toggleLeftDrawer" />
 
-        <q-toolbar-title> Quasar App </q-toolbar-title>
+        <q-toolbar-title class="text-h3"> Web aplikacija </q-toolbar-title>
+        
 
         <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
@@ -66,10 +67,16 @@ const linksList = [
     link: 'https://facebook.quasar.dev',
   },
   {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
+    title: 'Web aplikacija',
+    caption: 'github web app',
     icon: 'favorite',
-    link: 'https://awesome.quasar.dev',
+    link: 'https://github.com/thejudgeee/webappp.git',
+  },
+  {
+    title: 'veleri',
+    caption: 'veleri stranica',
+    icon: 'home',
+    link: 'https://www.veleri.hr/hr',
   },
 ]
 
